@@ -1,10 +1,12 @@
 import './App.scss';
 import Header from './components/Header/Header';
+import Main from "./components/Main/Main";
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <div className='app'>
       <Header/>
+      <Main/>
     </div>
   );
 }

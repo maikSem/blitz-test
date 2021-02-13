@@ -1,9 +1,9 @@
 import React from 'react';
 
-const NavigationItem = ({section}) => {
+const NavigationItem = ({section, addClassItem, addClassLink}) => {
   return (
-    <li>
-      <a href="#">{section}</a>
+    <li className={`nav-item ${addClassItem ? addClassItem : ''}`}>
+      <a className={`nav-link ${addClassLink ? addClassLink : ''}`} href="#">{section}</a>
     </li>
   )
 };

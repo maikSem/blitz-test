@@ -2,3 +2,247 @@
 @import './scss/allstyle.scss';
 @import './scss/fonts.scss';
 @import './scss/variables.scss';
+@import './scss/mixins.scss';
+@import './scss/app.scss';
+
+.app {
+  position: relative;
+  min-width: 320px;
+  max-width: $desktop-width;
+  height: 100vh;
+  margin: 0 auto;
+};
+
+.header {
+  min-height: 100px;
+  padding: 37px 35px 0px 45px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 65px;
+    padding-right: 48px;
+  };
+};
+
+.main {
+  @media (min-width: $tablet-width) {
+    margin-bottom: 80px;
+  };
+};
+
+.top {
+  min-height: 290px;
+  margin-top: -117px;
+  background: url('img/Foggy_forest@1x.jpg') no-repeat;
+  background-position-x: -725px;
+  background-position-y: -210px;
+
+  @media (min-width: $tablet-width) {
+    min-height: 928px;
+    background-position-x: -582px;
+    background-position-y: -152px;
+  };
+
+  @media (min-width: $desktop-width) {
+    min-height: 1080px;
+  };
+
+  @media (min-resolution: 2dppx) {
+    background: url('img/Foggy_forest@2x.jpg');
+  };
+};
+
+.burger {
+position: absolute;
+};
+
+.burger-button {
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: 24px;
+  color: $light_grey;
+  background: transparent;
+  border: none;
+  outline: none;
+
+  &:hover {
+    color: darkolivegreen;
+  }
+};
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  list-style: none;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 36px;
+    border-bottom: 1px solid $light_grey;
+  }
+};
+
+.nav-item {
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    &:first-child {
+      padding-left: 30px;
+    };
+
+    &:last-child {
+      padding-right: 30px;
+    };
+
+    &:nth-child(3) {
+      padding-right: 12px;
+    };
+  };
+};
+
+.nav-link {
+  @include basic-font-regular;
+  color: $light_grey;
+  font-size: 23px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover {
+    color: darkolivegreen;
+  };
+
+  @media (min-width: $tablet-width) {
+    letter-spacing: 0;
+  };
+};
+
+.main-nav {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  };
+};
+
+.main-list {
+  padding: 37px 60px 35px 42px;
+};
+
+.main-item {
+  &:nth-child(3) {
+    padding-right: 0;
+  };
+
+  &:last-child {
+    padding-right: 27px;
+  }
+};
+
+.main-link {
+  @include nexia-font-normal;
+  letter-spacing: 1px;
+};
+
+.wrapper {
+  display: block;
+};
+
+.img-main {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+};
+
+.description {
+  margin: 43px 20px 45px 35px;
+
+  @media (min-width: $tablet-width) {
+    margin: 57px 35px 37px 57px;
+  };
+};
+
+.description-title {
+  margin: 0 0 12px;
+  padding: 0;
+  @include basic-font-regular;
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: $dark_grey;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 52px;
+    font-size: 60px;
+    letter-spacing: 6px;
+  };
+};
+
+.description-text {
+  margin: 0 0 40px 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 51px;
+  letter-spacing: 0.8px;
+  color: $dark_grey;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+  };
+};
+
+.description-add-text {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    margin: 0 0 50px 0;
+    font-size: 24px;
+    line-height: 51px;
+    letter-spacing: 0.6px;
+  };
+};
+
+.description-signature {
+  margin: 0 0 0 3px;
+  padding: 0;
+  @include basic-font-regular;
+  font-size: 18px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 0;
+    font-size: 36px;
+  };
+};
+
+.scroll {
+  display: none;
+  bottom: 0;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  };
+};
+
+.scroll-text {
+  margin: 0;
+  padding: 0 29px 24px 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: $light_grey;
+  text-transform: uppercase;
+};
+
+.scroll-arrow {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background-image: url('./img/Double Arrow.png');
+}

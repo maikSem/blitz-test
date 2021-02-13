@@ -1,0 +1,20 @@
+@mixin basic-font-normal {
+  font: {
+    family: 'Open Sans', sans-serif;
+    weight: 300;
+  }
+};
+
+@mixin basic-font-regular {
+  font: {
+    family: 'Open Sans', sans-serif;
+    weight: 400;
+  }
+};
+
+@mixin nexia-font-normal {
+  font: {
+    family: 'Nexa Light', sans-serif;
+    weight: 300;
+  }
+};
