@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/blitz-test/static/css/main.79bb4d9a.chunk.css",
+    "main.js": "/blitz-test/static/js/main.fbdc985e.chunk.js",
+    "main.js.map": "/blitz-test/static/js/main.fbdc985e.chunk.js.map",
+    "runtime-main.js": "/blitz-test/static/js/runtime-main.a04c55a2.js",
+    "runtime-main.js.map": "/blitz-test/static/js/runtime-main.a04c55a2.js.map",
+    "static/js/2.a777e1b5.chunk.js": "/blitz-test/static/js/2.a777e1b5.chunk.js",
+    "static/js/2.a777e1b5.chunk.js.map": "/blitz-test/static/js/2.a777e1b5.chunk.js.map",
+    "static/js/3.3d491a87.chunk.js": "/blitz-test/static/js/3.3d491a87.chunk.js",
+    "static/js/3.3d491a87.chunk.js.map": "/blitz-test/static/js/3.3d491a87.chunk.js.map",
+    "index.html": "/blitz-test/index.html",
+    "static/css/main.79bb4d9a.chunk.css.map": "/blitz-test/static/css/main.79bb4d9a.chunk.css.map",
+    "static/js/2.a777e1b5.chunk.js.LICENSE.txt": "/blitz-test/static/js/2.a777e1b5.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/blitz-test/static/media/pt-sans-v11-latin_cyrillic-700.d6c46e34.woff",
+    "static/media/Jason_Wood_mobile@1x.6e8253d5.jpg": "/blitz-test/static/media/Jason_Wood_mobile@1x.6e8253d5.jpg",
+    "static/media/Jason_Wood_mobile@2x.1a367ef7.jpg": "/blitz-test/static/media/Jason_Wood_mobile@2x.1a367ef7.jpg",
+    "static/media/Jason_Wood_table@1x.c6805ef2.jpg": "/blitz-test/static/media/Jason_Wood_table@1x.c6805ef2.jpg",
+    "static/media/Jason_Wood_table@2x.b1de2eaf.jpg": "/blitz-test/static/media/Jason_Wood_table@2x.b1de2eaf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a04c55a2.js",
+    "static/js/2.a777e1b5.chunk.js",
+    "static/css/main.79bb4d9a.chunk.css",
+    "static/js/main.fbdc985e.chunk.js"
+  ]
+}
