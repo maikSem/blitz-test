@@ -1,0 +1,20 @@
+.burger {
+  position: absolute;
+  z-index: 3;
+};
+
+.burger-button {
+  margin-bottom: 30px;
+  padding: 0;
+
+  @include pt-sans;
+  font-size: 24px;
+  color: $light_grey;
+  background: transparent;
+  border: none;
+  outline: none;
+
+  &:hover {
+    color: $hover-nav-link;
+  };
+};
